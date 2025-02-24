@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+    body {
+        background-color: #ffd700;
+        color: #333;
+        font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+    }
+    #game-container {
+        text-align: center;
+    }
+    #word-display {
+        font-size: 48px;
+        margin: 20px;
+    }
+    #input-field {
+        font-size: 24px;
+        padding: 10px;
+        margin: 20px;
+        width: 300px;
+    }
+    #stats {
+        font-size: 24px;
+        margin: 20px;
+    }
+    #timer {
+        font-size: 24px;
+        margin: 20px;
+    }
+    #score {
+        font-size: 24px;
+        margin: 20px;
+    }
+    .apdate {
+        font-size: 24px;
+        margin: 20px;
+    }
+    footer {
+        font-size: 24px;
+        margin: 20px;
+    }
+}
+body {
+    background-color: #ffd700;
+    color: #333;
+    font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#word-display {
+    font-size: 48px;
+    margin: 20px;
+}
+
+#input-field {
+    font-size: 24px;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+}
+
+#stats {
+    font-size: 24px;
+    margin: 20px;
+}
+
+#start-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+
+#start-button:hover {
+    background-color: #45a049;
+}
+
+#start-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#timer {
+    font-size: 24px;
+    margin: 20px;
+}
+
+#score {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.apdate {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: #333;
+    font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+    background-color: #0088ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
